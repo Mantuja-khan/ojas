@@ -249,7 +249,7 @@ function Index() {
             {/* Content */}
             <div className="animate-fade-in-up">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">
-                OJAS PHARMACEUTICALS
+                ABOUT OJAS PHARMACEUTICALS
               </h2>
               <p className="mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">
                 EXCELLENCE IN PHARMA EXCIPIENTS
@@ -272,14 +272,31 @@ function Index() {
       <section className="py-14 md:py-20 bg-[color:var(--brand-light)]/40">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-10 md:gap-12 lg:grid-cols-2">
-            <div className="flex justify-center order-2 lg:order-1 animate-scale-in">
-              <img src={aboutWarehouse} alt="Ojas Pharmaceuticals facility" loading="lazy" width={1024} height={768} className="max-w-md w-full rounded-sm shadow-lg" />
+            <div className="relative mx-auto h-[420px] w-full max-w-[520px] sm:h-[480px] order-2 lg:order-1 animate-scale-in">
+              {/* Blue framed image */}
+              <div className="absolute left-0 top-0 h-[260px] w-[230px] border-[6px] border-[#1d4e89] bg-white p-2 shadow-xl sm:h-[300px] sm:w-[270px]">
+                <img
+                  src="https://i.pinimg.com/1200x/d1/8e/23/d18e23a109e47fab9dd736d2cbf69dbc.jpg"
+                  alt="Ojas Pharmaceuticals facility 1"
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              {/* Red framed image */}
+              <div className="absolute bottom-0 right-0 h-[260px] w-[230px] border-[6px] border-[#e11d48] bg-white p-2 shadow-xl sm:h-[300px] sm:w-[270px]">
+                <img
+                  src="https://i.pinimg.com/1200x/e9/3a/75/e93a7511b5ca88a9ef157b59fd981b4d.jpg"
+                  alt="Ojas Pharmaceuticals facility 2"
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
             <div className="order-1 lg:order-2 animate-fade-in-up">
-              <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">About Us</p>
+              <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">WHO WE ARE </p>
               <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-[color:var(--brand-dark)]">A trusted partner in pharmaceutical supply.</h2>
               <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
-                Welcome to <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong> your trusted partner in excipients, solvents and chemicals since <strong className="text-[color:var(--brand-dark)]">2020</strong>. As supplier of renowned manufacturers such as <strong className="text-[color:var(--brand-dark)]">Gujarat Ambuja Exports Limited, Gulshan Polyols Limited, Bluecraft Agro Pvt Ltd, Manali Petrochemicals Limited, Adani Wilmar Limited, Godrej Industries Limited, Roquette India Pvt Ltd</strong> and more, we cater to diverse industries including Pharma, Home Care, Personal Care, Food and Chemicals.
+                OJAS PHARMACEUTICALS has a trusted and well established supply chain network for supplying pharmaceutical raw materials, APIs and formulations to the Pharmaceutical, Healthcare, Nutraceutical, Cosmetics, Veterinary and other allied industries. We have a wide distribution network across India, supporting and serving our customer base on a pan-India basis through our professional team.
               </p>
               <ul className="mt-5 space-y-2">
                 {["Pan-India distribution network", "Strict quality and IP/BP/USP compliance", "Long-term customer trust"].map((item) => (
@@ -302,7 +319,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center animate-fade-in-up">
             <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">Our Products</p>
-            <h2 className="section-heading underline-accent mt-2 text-2xl sm:text-3xl md:text-4xl">A glimpse of our catalog</h2>
+            <h2 className="section-heading underline-accent mt-2 text-2xl sm:text-3xl md:text-4xl">A glimpse of our catalgue </h2>
             <p className="mx-auto mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-muted-foreground">
               From pharmaceutical APIs to cosmetics-grade actives — sourced with strict quality standards.
             </p>
@@ -382,7 +399,7 @@ function Index() {
             <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">In Association With</p>
             <h2 className="section-heading underline-accent mt-2 text-2xl sm:text-3xl md:text-4xl">Our Principals</h2>
             <p className="mx-auto mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-muted-foreground">
-              Authorised distribution partnerships with globally recognised raw material manufacturers.
+              Supplier of raw materials from globally recognised manufacturers.
             </p>
           </div>
         </div>
@@ -419,11 +436,11 @@ function Index() {
                 className="group flex flex-col overflow-hidden rounded-md border border-border bg-card shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in-up"
                 style={{ animationDelay: `${i * 120}ms` }}
               >
-                <div className="relative h-44 sm:h-48 md:h-52 w-full overflow-hidden">
+                <div className="relative h-32 sm:h-36 md:h-40 w-full overflow-hidden">
                   <img src={c.img} alt={c.title} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--brand-dark)]/40 to-transparent" />
                 </div>
-                <div className="flex flex-1 flex-col items-center p-6 md:p-8 text-center">
+                <div className="flex flex-1 flex-col items-center p-4 md:p-5 text-center">
                   <h3 className="text-lg md:text-xl font-semibold text-[color:var(--brand-dark)]">{c.title}</h3>
                   <p className="mt-3 text-sm md:text-base text-muted-foreground leading-relaxed">{c.text}</p>
                   <span className="mt-5 inline-flex items-center gap-1 text-sm md:text-base font-medium text-[color:var(--brand)] group-hover:text-[color:var(--brand-dark)]">

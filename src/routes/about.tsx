@@ -29,7 +29,7 @@ function AboutPage() {
         />
         <div className="absolute inset-0 bg-[color:var(--brand-dark)]/85" />
         <div className="relative z-10 mx-auto max-w-7xl px-6">
-          <h1 className="text-4xl md:text-5xl font-semibold underline-accent animate-fade-in-up">About Us</h1>
+          <h1 className="text-4xl md:text-5xl font-semibold underline-accent animate-fade-in-up">Who we are </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/90 leading-relaxed animate-fade-in-up delay-100">
             Trusted pharmaceutical raw material suppliers with a pan-India presence.
           </p>
@@ -40,8 +40,25 @@ function AboutPage() {
       <section className="py-16 md:py-20 bg-[color:var(--brand-light)]/40">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-10 md:gap-12 lg:grid-cols-2">
-            <div className="flex justify-center order-2 lg:order-1 animate-scale-in">
-              <img src={aboutWarehouse} alt="Ojas Pharmaceuticals facility" loading="lazy" width={1024} height={768} className="max-w-md w-full rounded-sm shadow-lg" />
+            <div className="relative mx-auto h-[420px] w-full max-w-[520px] sm:h-[480px] order-2 lg:order-1 animate-scale-in">
+              {/* Blue framed image */}
+              <div className="absolute left-0 top-0 h-[260px] w-[230px] border-[6px] border-[#1d4e89] bg-white p-2 shadow-xl sm:h-[300px] sm:w-[270px]">
+                <img
+                  src={productsCard}
+                  alt="Pharma excipients"
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              {/* Red framed image */}
+              <div className="absolute bottom-0 right-0 h-[260px] w-[230px] border-[6px] border-[#e11d48] bg-white p-2 shadow-xl sm:h-[300px] sm:w-[270px]">
+                <img
+                  src={flasks}
+                  alt="Pharmaceutical raw materials"
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
             <div className="order-1 lg:order-2 animate-fade-in-up">
               <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">About Us</p>
@@ -67,7 +84,7 @@ function AboutPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="animate-fade-in-up">
-              <h2 className="text-3xl font-semibold text-[color:var(--brand-dark)]">Who We Are?</h2>
+              <h2 className="text-3xl font-semibold text-[color:var(--brand-dark)]">Who we are </h2>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                 <strong className="text-[color:var(--brand-dark)]">OJAS PHARMACEUTICALS</strong> has a trusted and well established supply chain network for supplying pharmaceutical raw materials, APIs and formulations to the Pharmaceutical, Healthcare, Nutraceutical, Cosmetics, Veterinary and other allied industries. We have a wide distribution network across India, supporting and serving our customer base on a pan-India basis through our professional team.
               </p>
@@ -79,8 +96,8 @@ function AboutPage() {
               {/* Blue framed image */}
               <div className="absolute left-0 top-0 h-[260px] w-[230px] border-[6px] border-[#1d4e89] bg-white p-2 shadow-xl sm:h-[300px] sm:w-[270px]">
                 <img
-                  src={productsCard}
-                  alt="Pharma excipients"
+                  src="https://i.pinimg.com/1200x/d1/8e/23/d18e23a109e47fab9dd736d2cbf69dbc.jpg"
+                  alt="Pharma facility"
                   loading="lazy"
                   className="h-full w-full object-cover"
                 />
@@ -88,7 +105,7 @@ function AboutPage() {
               {/* Red framed image */}
               <div className="absolute bottom-0 right-0 h-[260px] w-[230px] border-[6px] border-[#e11d48] bg-white p-2 shadow-xl sm:h-[300px] sm:w-[270px]">
                 <img
-                  src={flasks}
+                  src="https://i.pinimg.com/1200x/e9/3a/75/e93a7511b5ca88a9ef157b59fd981b4d.jpg"
                   alt="Pharmaceutical raw materials"
                   loading="lazy"
                   className="h-full w-full object-cover"

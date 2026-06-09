@@ -2,7 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X, BookOpen } from "lucide-react";
 import { useState } from "react";
 import logo from "@/assets/ojas-logo.png";
-import cataloguePdf from "@/assets/Ojas_Pherma_Catalogue.pdf";
+import cataloguePdf from "@/assets/Ojas_Product_Catalogue.pdf";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -16,11 +16,11 @@ export function Header() {
   const { location } = useRouterState();
 
   return (
-    <header className="w-full z-50 relative bg-white shadow-sm">
+    <header className="absolute top-0 left-0 w-full z-50 bg-transparent">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-1.5">
         <Link to="/" className="flex items-center gap-2">
           <span className="inline-flex items-center justify-center rounded-md">
-            <img src={logo} alt="Ojas Pharmaceuticals" className="h-[60px] w-auto object-contain" />
+            <img src={logo} alt="Ojas Pharmaceuticals" className="h-[110px] w-auto object-contain" />
           </span>
         </Link>
 
@@ -32,7 +32,7 @@ export function Header() {
                 to={l.to}
                 activeOptions={{ exact: l.to === "/" }}
                 activeProps={{ className: "font-semibold" }}
-                className="text-lg font-medium transition-colors text-[color:var(--brand-dark)] hover:text-[color:var(--brand)]"
+                className="text-lg font-medium transition-colors text-white hover:text-white/80"
               >
                 {l.label}
               </Link>
@@ -52,7 +52,7 @@ export function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-[color:var(--brand-dark)]"
+          className="md:hidden text-white"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
