@@ -2,7 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X, BookOpen } from "lucide-react";
 import { useState } from "react";
 import logo from "@/assets/ojas-logo.png";
-import cataloguePdf from "@/assets/Ojas_Product_Catalogue.pdf";
+import cataloguePdf from "@/assets/Ojas_Product_catalogue.pdf";
 
 const navLinks = [
   { label: "Home", to: "/" },
