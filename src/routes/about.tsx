@@ -29,7 +29,7 @@ function AboutPage() {
         />
         <div className="absolute inset-0 bg-[color:var(--brand-dark)]/85" />
         <div className="relative z-10 mx-auto max-w-7xl px-6">
-          <h1 className="text-4xl md:text-5xl font-semibold underline-accent animate-fade-in-up">Who we are </h1>
+          <h1 className="text-4xl md:text-5xl font-semibold underline-accent animate-fade-in-up">ABOUT US  </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/90 leading-relaxed animate-fade-in-up delay-100">
             Trusted pharmaceutical raw material suppliers with a pan-India presence.
           </p>
@@ -61,19 +61,22 @@ function AboutPage() {
               </div>
             </div>
             <div className="order-1 lg:order-2 animate-fade-in-up">
-              <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">About Us</p>
-              <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-[color:var(--brand-dark)]">A trusted partner in pharmaceutical supply.</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">
+                ABOUT OJAS PHARMACEUTICALS
+              </h2>
+              <p className="mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">
+                EXCELLENCE IN PHARMA EXCIPIENTS
+              </p>
+              <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
+                <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong>, was incepted in the year <strong className="text-[color:var(--brand-dark)]">2020</strong>, as a fine Supplier of a commendable range of pharma and cosmetics raw materials. It was a dream of and hard work of two visionaries <strong className="text-[color:var(--brand-dark)]">Mr. Praveen Singh</strong> and <strong className="text-[color:var(--brand-dark)]">Mrs. Pooja Singh</strong> that has earned a long lasting goodwill for years.
+              </p>
+              <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
+                Our competence helped us to form fruitful strategic links to the supply chain in pharmaceuticals and cosmetics industry. Our primary business is to supply pharmaceutical raw materials to generate medicines for major areas of healthcare that also includes some of the world’s most common illnesses. The products are of highest quality produced using state-of-the art techniques, well planned procedures and superior manufacturing processes.
+              </p>
               <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
                 Welcome to <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong> your trusted partner in excipients, solvents and chemicals since <strong className="text-[color:var(--brand-dark)]">2020</strong>. As supplier of renowned manufacturers such as <strong className="text-[color:var(--brand-dark)]">Gujarat Ambuja Exports Limited, Gulshan Polyols Limited, Bluecraft Agro Pvt Ltd, Manali Petrochemicals Limited, Adani Wilmar Limited, Godrej Industries Limited, Roquette India Pvt Ltd</strong> and more, we cater to diverse industries including Pharma, Home Care, Personal Care, Food and Chemicals.
               </p>
-              <ul className="mt-5 space-y-2">
-                {["Pan-India distribution network", "Strict quality and IP/BP/USP compliance", "Long-term customer trust"].map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-base md:text-lg text-muted-foreground">
-                    <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-[color:var(--brand)]" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
+
             </div>
           </div>
         </div>
@@ -84,7 +87,11 @@ function AboutPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="animate-fade-in-up">
-              <h2 className="text-3xl font-semibold text-[color:var(--brand-dark)]">Who we are </h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">
+                WHO WE ARE
+              </h2>
+              <div className="mt-3 h-[3px] w-20 bg-[#e11d48] " />
+
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                 <strong className="text-[color:var(--brand-dark)]">OJAS PHARMACEUTICALS</strong> has a trusted and well established supply chain network for supplying pharmaceutical raw materials, APIs and formulations to the Pharmaceutical, Healthcare, Nutraceutical, Cosmetics, Veterinary and other allied industries. We have a wide distribution network across India, supporting and serving our customer base on a pan-India basis through our professional team.
               </p>
@@ -120,9 +127,10 @@ function AboutPage() {
       <section className="py-16 md:py-20 bg-[color:var(--brand-light)]/40">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center animate-fade-in-up">
-            <h2 className="text-3xl font-semibold text-[color:var(--brand-dark)]">Why Choose Us?</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">WHY CHOOSE US ?</h2>
+            <div className="mt-3 h-[3px] w-20 bg-[#e11d48] mx-auto" />
             <p className="mx-auto mt-4 max-w-3xl text-lg leading-relaxed text-muted-foreground">
-              We have built a strong reputation in the market by providing high-quality pharmaceutical products for healthcare, hospitals, retail pharmacies and other services.
+              Ojas Pharmaceuticals strives to provide for the needs of their customers worldwide, leaving no stone unturned in adhering to time limits and technical expertise. All of Ojas activities revolve around 3 core principles – <strong className="text-[color:var(--brand)]">TRUST</strong>, <strong className="text-[color:var(--brand)]">QUALITY</strong>, <strong className="text-[color:var(--brand)]">SERVICE</strong>.
             </p>
             <p className="mt-2 text-center text-lg font-medium text-[color:var(--brand-dark)]">The following are some of the reasons behind our industrial dominance:</p>
           </div>

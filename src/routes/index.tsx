@@ -256,7 +256,10 @@ function Index() {
               </p>
               <div className="mt-3 h-[3px] w-20 bg-[#e11d48]" />
               <p className="mt-6 text-base md:text-lg leading-relaxed text-muted-foreground">
-                Welcome to <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong>, your trusted partner in excipients, solvents and chemicals since <strong className="text-[color:var(--brand-dark)]">2020</strong>. As supplier of renowned manufacturers such as <strong className="text-[color:var(--brand-dark)]">Gujarat Ambuja Exports Limited, Gulshan Polyols Limited, Bluecraft Agro Pvt Ltd, Manali Petrochemicals Limited, Adani Wilmar Limited, Godrej Industries Limited, Roquette India Pvt Ltd</strong> and more, we cater to diverse industries including Pharma, Home Care, Personal Care, Food and Chemicals.
+                <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong>, was incepted in the year <strong className="text-[color:var(--brand-dark)]">2020</strong>, as a fine Supplier of a commendable range of pharma and cosmetics raw materials. It was a dream of and hard work of two visionaries <strong className="text-[color:var(--brand-dark)]">Mr. Praveen Singh</strong> and <strong className="text-[color:var(--brand-dark)]">Mrs. Pooja Singh</strong> that has earned a long lasting goodwill for years.
+              </p>
+              <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
+                Our competence helped us to form fruitful strategic links to the supply chain in pharmaceuticals and cosmetics industry. Our primary business is to supply pharmaceutical raw materials to generate medicines for major areas of healthcare that also includes some of the world’s most common illnesses. The products are of highest quality produced using state-of-the art techniques, well planned procedures and superior manufacturing processes.
               </p>
               <Link to="/about" className="mt-8 inline-block">
                 <button className="rounded-sm bg-[#e11d48] px-8 py-3 text-base font-medium text-white shadow-lg hover:bg-[#be123c] hover:-translate-y-0.5 transition-all duration-300">
@@ -293,8 +296,10 @@ function Index() {
               </div>
             </div>
             <div className="order-1 lg:order-2 animate-fade-in-up">
-              <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">WHO WE ARE </p>
-              <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-[color:var(--brand-dark)]">A trusted partner in pharmaceutical supply.</h2>
+              <p className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">WHO WE ARE </p>
+              <h2 className="mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">A TRUSTED PARTNER IN PHERMACEUTICAL SUPPLY.</h2>
+              <div className="mt-3 h-[3px] w-20 bg-[#e11d48]" />
+
               <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
                 OJAS PHARMACEUTICALS has a trusted and well established supply chain network for supplying pharmaceutical raw materials, APIs and formulations to the Pharmaceutical, Healthcare, Nutraceutical, Cosmetics, Veterinary and other allied industries. We have a wide distribution network across India, supporting and serving our customer base on a pan-India basis through our professional team.
               </p>
@@ -314,12 +319,28 @@ function Index() {
         </div>
       </section>
 
+      {/* WHY CHOOSE US */}
+      <section className="py-14 md:py-20 bg-background border-t border-border">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="text-center max-w-3xl mx-auto animate-fade-in-up">
+            <p className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">WHY CHOOSE US </p>
+            <h2 className="
+mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">WHY  OJAS PHARMACEUTICAL </h2>
+            <div className="mt-3 h-[3px] w-20 bg-[#e11d48] mx-auto" />
+            <p className="mt-6 text-lg md:text-xl leading-relaxed text-muted-foreground">
+              Ojas Pharmaceuticals strives to provide for the needs of their customers worldwide, leaving no stone unturned in adhering to time limits and technical expertise. All of Ojas activities revolve around 3 core principles – <strong className="text-[color:var(--brand)]">TRUST</strong>, <strong className="text-[color:var(--brand)]">QUALITY</strong>, <strong className="text-[color:var(--brand)]">SERVICE</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* SHORT PRODUCTS */}
       <section className="py-14 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center animate-fade-in-up">
-            <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">Our Products</p>
-            <h2 className="section-heading underline-accent mt-2 text-2xl sm:text-3xl md:text-4xl">A glimpse of our catalgue </h2>
+            <p className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">OUR PRODUCTS </p>
+            <h2 className="mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">A GLIMPSE OF OUR CATALOGUE  </h2>
+            <div className="mt-3 h-[3px] w-20 bg-[#e11d48] mx-auto" />
             <p className="mx-auto mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-muted-foreground">
               From pharmaceutical APIs to cosmetics-grade actives — sourced with strict quality standards.
             </p>
@@ -367,8 +388,9 @@ function Index() {
       <section className="py-14 md:py-20 border-y border-border bg-card">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center animate-fade-in-up">
-            <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">Trusted By</p>
-            <h2 className="section-heading underline-accent mt-2 text-2xl sm:text-3xl md:text-4xl">Our Clients</h2>
+            <p className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">TRUSTED BY</p>
+            <h2 className="mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">OUR CLIENTS</h2>
+            <div className="mt-3 h-[3px] w-20 bg-[#e11d48] mx-auto" />
             <p className="mx-auto mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-muted-foreground">
               Proudly serving leading pharmaceutical, cosmetic and herbal manufacturers across India.
             </p>
@@ -396,8 +418,9 @@ function Index() {
       <section className="py-14 md:py-20 bg-[color:var(--brand-light)]/40">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center animate-fade-in-up">
-            <p className="text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider text-[color:var(--brand)]">In Association With</p>
-            <h2 className="section-heading underline-accent mt-2 text-2xl sm:text-3xl md:text-4xl">Our Principals</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">OUR PRINCIPALS</h2>
+            <p className="mt-4 text-base sm:text-lg md:text-xl font-semibold tracking-wide text-[#16a34a]">IN ASSOCIATION WITH</p>
+            <div className="mt-3 h-[3px] w-20 bg-[#e11d48] mx-auto" />
             <p className="mx-auto mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-muted-foreground">
               Supplier of raw materials from globally recognised manufacturers.
             </p>
