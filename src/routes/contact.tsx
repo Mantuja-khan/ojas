@@ -79,7 +79,7 @@ function ContactPage() {
       </section>
 
       {/* Contact Cards */}
-      <section className="py-16 md:py-20 bg-[color:var(--brand-light)]/40">
+      <section className="py-16 md:py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {[

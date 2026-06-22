@@ -37,7 +37,7 @@ function AboutPage() {
       </section>
 
       {/* Short About Section (restored and duplicated above Who We Are) */}
-      <section className="py-16 md:py-20 bg-[color:var(--brand-light)]/40">
+      <section className="py-16 md:py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-10 md:gap-12 lg:grid-cols-2">
             <div className="relative mx-auto h-[420px] w-full max-w-[520px] sm:h-[480px] order-2 lg:order-1 animate-scale-in">
@@ -73,9 +73,9 @@ function AboutPage() {
               <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
                 Our competence helped us to form fruitful strategic links to the supply chain in pharmaceuticals and cosmetics industry. Our primary business is to supply pharmaceutical raw materials to generate medicines for major areas of healthcare that also includes some of the world’s most common illnesses. The products are of highest quality produced using state-of-the art techniques, well planned procedures and superior manufacturing processes.
               </p>
-              <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
+              {/* <p className="mt-4 text-base md:text-lg leading-relaxed text-muted-foreground">
                 Welcome to <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong> your trusted partner in excipients, solvents and chemicals since <strong className="text-[color:var(--brand-dark)]">2020</strong>. As supplier of renowned manufacturers such as <strong className="text-[color:var(--brand-dark)]">Gujarat Ambuja Exports Limited, Gulshan Polyols Limited, Bluecraft Agro Pvt Ltd, Manali Petrochemicals Limited, Adani Wilmar Limited, Godrej Industries Limited, Roquette India Pvt Ltd</strong> and more, we cater to diverse industries including Pharma, Home Care, Personal Care, Food and Chemicals.
-              </p>
+              </p> */}
 
             </div>
           </div>
@@ -91,12 +91,11 @@ function AboutPage() {
                 WHO WE ARE
               </h2>
               <div className="mt-3 h-[3px] w-20 bg-[#e11d48] " />
-
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                <strong className="text-[color:var(--brand-dark)]">OJAS PHARMACEUTICALS</strong> has a trusted and well established supply chain network for supplying pharmaceutical raw materials, APIs and formulations to the Pharmaceutical, Healthcare, Nutraceutical, Cosmetics, Veterinary and other allied industries. We have a wide distribution network across India, supporting and serving our customer base on a pan-India basis through our professional team.
+                Welcome to <strong className="text-[color:var(--brand-dark)]">Ojas Pharmaceuticals</strong> your trusted partner in excipients, solvents and chemicals since <strong className="text-[color:var(--brand-dark)]">2020</strong>. As supplier of renowned manufacturers such as <strong className="text-[color:var(--brand-dark)]">Gujarat Ambuja Exports Limited, Gulshan Polyols Limited, Bluecraft Agro Pvt Ltd, Manali Petrochemicals Limited, Adani Wilmar Limited, Godrej Industries Limited, Roquette India Pvt Ltd</strong> and more, we cater to diverse industries including Pharma, Home Care, Personal Care, Food and Chemicals.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                We are a well-known company dedicated to providing a diverse range of pharmaceutical products. We have been successful in holding a significant part of the market due to the superiority of our offered goods, backed by a team of highly skilled specialists. To keep up with present market trends, we work hard to deliver a high-quality, well-accepted range to the market.
+                <strong className="text-[color:var(--brand-dark)]">OJAS PHARMACEUTICALS</strong> has a trusted and well established supply chain network for supplying pharmaceutical raw materials, APIs and formulations to the Pharmaceutical, Healthcare, Nutraceutical, Cosmetics, Veterinary and other allied industries. We have a wide distribution network across India, supporting and serving our customer base on a pan-India basis through our professional team.
               </p>
             </div>
             <div className="relative mx-auto h-[420px] w-full max-w-[520px] sm:h-[480px] animate-scale-in">
@@ -124,7 +123,7 @@ function AboutPage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 md:py-20 bg-[color:var(--brand-light)]/40">
+      <section className="py-16 md:py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center animate-fade-in-up">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-dark)]">WHY CHOOSE US ?</h2>

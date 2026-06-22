@@ -129,7 +129,7 @@ function ProductsPage() {
       </section>
 
       {/* Cosmetics */}
-      <section className="py-20 bg-[color:var(--brand-light)]/40">
+      <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex items-center gap-3">
             <span className="flex h-12 w-12 items-center justify-center rounded-full border border-[color:var(--brand)]/30 text-[color:var(--brand)]">

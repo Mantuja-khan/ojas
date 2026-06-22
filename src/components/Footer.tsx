@@ -11,7 +11,7 @@ const navLinks = [
 
 export function Footer() {
   return (
-    <footer className="bg-[color:var(--brand-light)]/40 pt-12 pb-6 text-foreground/85">
+    <footer className="bg-white border-t border-border pt-12 pb-6 text-foreground/85">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-3">
         {/* Brand */}
         <div className="flex flex-col items-start gap-4">
