@@ -5,10 +5,10 @@ import logo from "@/assets/ojas-logo.png";
 import cataloguePdf from "@/assets/Ojas_Product_catalogue.pdf";
 
 const navLinks = [
-  { label: "Home", to: "/" },
-  { label: "Products", to: "/products" },
-  { label: "About Us", to: "/about" },
-  { label: "Contact Us", to: "/contact" },
+  { label: "HOME", to: "/" },
+  { label: "PRODUCTS", to: "/products" },
+  { label: "ABOUT US", to: "/about" },
+  { label: "CONTACT US", to: "/contact" },
 ];
 
 export function Header() {
@@ -45,7 +45,7 @@ export function Header() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-sm bg-[color:var(--brand)] px-5 py-2.5 text-lg font-semibold text-primary-foreground shadow-sm transition-all duration-300 hover:bg-[color:var(--brand-dark)] hover:shadow-md hover:-translate-y-0.5"
             >
-              <BookOpen className="h-5 w-5" /> Catalogue
+              <BookOpen className="h-5 w-5" /> CATALOGUE
             </a>
           </li>
         </ul>

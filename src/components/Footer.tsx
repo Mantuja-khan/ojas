@@ -25,7 +25,7 @@ export function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-base md:text-lg font-semibold text-[color:var(--brand-dark)]">Quick Links</h4>
+          <h4 className="text-base md:text-lg font-semibold text-[color:var(--brand-dark)]">QUICK LINKS</h4>
           <ul className="mt-4 space-y-2">
             {navLinks.map((l) => (
               <li key={l.label}>
@@ -42,7 +42,7 @@ export function Footer() {
 
         {/* Contact */}
         <div>
-          <h4 className="text-base md:text-lg font-semibold text-[color:var(--brand-dark)]">Get In Touch</h4>
+          <h4 className="text-base md:text-lg font-semibold text-[color:var(--brand-dark)]">GET IN TOUCH </h4>
           <ul className="mt-4 space-y-3 text-sm md:text-base text-muted-foreground">
             <li className="flex items-start gap-2">
               <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[color:var(--brand)]" />

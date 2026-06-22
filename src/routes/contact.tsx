@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CtaBanner } from "@/components/CtaBanner";
 import { Phone, PhoneCall, Mail, MapPin, Send } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import { z } from "zod";
@@ -71,7 +70,7 @@ function ContactPage() {
         />
         <div className="absolute inset-0 bg-[color:var(--brand-dark)]/85" />
         <div className="relative z-10 mx-auto max-w-7xl px-6">
-          <h1 className="text-4xl md:text-5xl font-semibold underline-accent animate-fade-in-up">Get In Touch</h1>
+          <h1 className="text-4xl md:text-5xl font-semibold underline-accent animate-fade-in-up">GET IN TOUCH </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/90 leading-relaxed animate-fade-in-up delay-100">
             Reach out to Ojas Pharmaceuticals for orders, partnerships, or product enquiries.
           </p>
@@ -82,29 +81,29 @@ function ContactPage() {
       <section className="py-16 md:py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-4">
-              {[
-                { icon: Phone, title: "Mobile", text: "+91 87666 51958", href: "tel:8766651958" },
-                { icon: PhoneCall, title: "Landline", text: "01493-460250", href: "tel:01493460250" },
-                { icon: Mail, title: "Email", text: "Info@ojaspharma.in", href: "mailto:Info@ojaspharma.in" },
-                { icon: MapPin, title: "Head Office", text: "S-SF 49, Second Floor, Capital Highstreet, Phool Bagh Chowk, Bhiwadi, Distt. Alwar, Rajasthan 301019" },
-              ].map((c, i) => {
-                const Inner = (
-                  <>
-                    <div className="flex h-14 w-14 items-center justify-center rounded-full border border-[color:var(--brand)]/30 text-[color:var(--brand)]">
-                      <c.icon className="h-6 w-6" />
-                    </div>
-                    <h3 className="mt-5 text-lg font-semibold text-[color:var(--brand-dark)]">{c.title}</h3>
-                    <p className="mt-2 text-lg text-muted-foreground break-words">{c.text}</p>
-                  </>
-                );
-                const classes = `flex flex-col items-center rounded-sm border border-border bg-card p-8 text-center shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up`;
-                const style = { animationDelay: `${i * 100}ms` };
-                return c.href ? (
-                  <a key={c.title} href={c.href} className={classes} style={style}>{Inner}</a>
-                ) : (
-                  <div key={c.title} className={classes} style={style}>{Inner}</div>
-                );
-              })}
+            {[
+              { icon: Phone, title: "Mobile", text: "+91 87666 51958", href: "tel:8766651958" },
+              { icon: PhoneCall, title: "Landline", text: "01493-460250", href: "tel:01493460250" },
+              { icon: Mail, title: "Email", text: "Info@ojaspharma.in", href: "mailto:Info@ojaspharma.in" },
+              { icon: MapPin, title: "Head Office", text: "S-SF 49, Second Floor, Capital Highstreet, Phool Bagh Chowk, Bhiwadi, Distt. Alwar, Rajasthan 301019" },
+            ].map((c, i) => {
+              const Inner = (
+                <>
+                  <div className="flex h-14 w-14 items-center justify-center rounded-full border border-[color:var(--brand)]/30 text-[color:var(--brand)]">
+                    <c.icon className="h-6 w-6" />
+                  </div>
+                  <h3 className="mt-5 text-lg font-semibold text-[color:var(--brand-dark)]">{c.title}</h3>
+                  <p className="mt-2 text-lg text-muted-foreground break-words">{c.text}</p>
+                </>
+              );
+              const classes = `flex flex-col items-center rounded-sm border border-border bg-card p-8 text-center shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up`;
+              const style = { animationDelay: `${i * 100}ms` };
+              return c.href ? (
+                <a key={c.title} href={c.href} className={classes} style={style}>{Inner}</a>
+              ) : (
+                <div key={c.title} className={classes} style={style}>{Inner}</div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -113,7 +112,7 @@ function ContactPage() {
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-3xl px-6">
           <div className="text-center animate-fade-in-up">
-            <h2 className="section-heading underline-accent">Send Us an Enquiry</h2>
+            <h2 className="section-heading underline-accent">SEND US AN ENQUIRY</h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
               Fill in the details below and our team will get back to you shortly.
             </p>
@@ -165,8 +164,6 @@ function ContactPage() {
           </form>
         </div>
       </section>
-
-      <CtaBanner />
     </div>
   );
 }

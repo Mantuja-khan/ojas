@@ -120,7 +120,7 @@ function ProductsPage() {
               <FlaskConical className="h-6 w-6" />
             </span>
             <div>
-              <h2 className="text-2xl font-semibold text-[color:var(--brand-dark)]">Pharmaceuticals Raw Material</h2>
+              <h2 className="text-2xl font-semibold text-[color:var(--brand-dark)]">PHARMACEUTICALS RAW MATERIAL</h2>
               <p className="text-base text-muted-foreground">High-purity APIs and excipients across IP, BP and USP grades.</p>
             </div>
           </div>
@@ -136,7 +136,7 @@ function ProductsPage() {
               <Sparkles className="h-6 w-6" />
             </span>
             <div>
-              <h2 className="text-2xl font-semibold text-[color:var(--brand-dark)]">Cosmetics Raw Materials</h2>
+              <h2 className="text-2xl font-semibold text-[color:var(--brand-dark)]">COSMETICS RAW MATERIALS</h2>
               <p className="text-base text-muted-foreground">Surfactants, emulsifiers, actives and specialty ingredients for personal care.</p>
             </div>
           </div>

@@ -79,19 +79,19 @@ const heroSlides = [
   {
     img: heroPharma,
     eyebrow: "Pharmaceutical Excellence",
-    title: "OJAS — Serving Pharmaceutical Industry",
+    title: "OJAS — SERVING PHARMACEUTICAL INDUSTRY",
     text: "Premium APIs, excipients and pharmaceutical raw materials sourced with strict IP/BP/USP compliance for manufacturers across India.",
   },
   {
     img: heroCosmetic,
     eyebrow: "Cosmetic Solutions",
-    title: "OJAS — Serving Cosmetic Industry",
+    title: "OJAS — SERVING COSMETIC INDUSTRY",
     text: "High-purity actives, emulsifiers and specialty ingredients trusted by leading personal care and beauty brands.",
   },
   {
     img: heroHerbal,
     eyebrow: "Herbal & Natural",
-    title: "OJAS — Serving Herbal Industry",
+    title: "OJAS — SERVING HERBAL INDUSTRY",
     text: "Naturally derived ingredients and botanical raw materials for nutraceutical, ayurvedic and wellness formulations.",
   },
 ];
